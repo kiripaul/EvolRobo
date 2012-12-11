@@ -76,13 +76,17 @@ def PlotHC(Generations,Lineages):
     
     plt.show(ii)
 #####MAIN
-'''
-def Genes(Columns,Rows,Iterations):
+    
+def Genes(Columns,Rows):
     matrix = []
     for i in range(Rows):
         matrix.append(MatrixCreate(1,Columns))
-    #return matrix
-'''
+    for x in range(Rows):
+        hc_array=HillClimber(Colums)
+        
+   
+
+
         
 
 
